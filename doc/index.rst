@@ -10,5 +10,6 @@ Welcome to Example's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   home.md
    some-feature.md
    another-feature.md
