@@ -18,18 +18,18 @@ class Mato:
         """
         self.file = file
 
-    def sum(self, file: str):
-        """
-        Initialize the Mato
+def sum(file: str):
+    """
+    Initialize the Mato
 
-        Parameters
-        ----------
-        file : str
-            File to set
+    Parameters
+    ----------
+    file : str
+        File to set
 
-        Attributes
-        ----------
-        file : str
-            Name of the file
-        """
-        self.file = file
+    Attributes
+    ----------
+    file : str
+        Name of the file
+    """
+    self.file = file
