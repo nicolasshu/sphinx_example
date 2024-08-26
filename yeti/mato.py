@@ -1,6 +1,7 @@
 import numpy as np
 
 class Mato:
+    """MATOOOO"""
     def __init__(self, file: str):
         """
         Initialize the Mato

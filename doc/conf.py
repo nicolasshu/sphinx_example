@@ -3,12 +3,22 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import os
+import sys
+sys.path.insert(0, os.path.abspath('..'))
+
+try:
+    import yeti
+    print("Successfully imported yeti")
+except Exception as e:
+    print(f"Failed to import yet: {e}")
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Example'
-copyright = 'workshop participant'
-author = 'workshop participant'
+project = 'Yeti'
+copyright = 'Nick'
+author = 'Nick'
 release = '0.1'
 
 
@@ -18,15 +28,13 @@ release = '0.1'
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode'
 ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-import os
-import sys
-sys.path.insert(0, os.path.abspath('..'))
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -34,3 +42,4 @@ sys.path.insert(0, os.path.abspath('..'))
 html_theme = 'sphinx_rtd_theme'
 # html_theme = 'press'
 html_static_path = ['_static']
+

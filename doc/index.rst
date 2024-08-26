@@ -6,13 +6,12 @@
 Welcome to Example's documentation!
 ===================================
 
-.. automodule:: yeti
+.. automodule:: yeti.mato
     :members:
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. automodule:: example
+    :members:
 
-   home.md
-   some-feature.md
-   another-feature.md
+.. autoclass:: yeti.Mato
+    :members:
+Yeap
