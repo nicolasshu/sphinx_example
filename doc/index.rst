@@ -15,3 +15,7 @@ Welcome to Example's documentation!
 .. autoclass:: yeti.Mato
     :members:
 Yeap
+
+
+home.md
+some-feature.md
