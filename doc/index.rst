@@ -6,6 +6,9 @@
 Welcome to Example's documentation!
 ===================================
 
+.. automodule:: yeti
+    :members:
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
