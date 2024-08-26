@@ -10,22 +10,26 @@ class Mato:
         ----------
         file : str
             File to set
+
+        Attributes
+        ----------
+        file : str
+            Name of the file
         """
         self.file = file
-    def print(self):
-        """
-        Print the Mato file
 
+    def sum(self, file: str):
         """
-        print(self.file)
-    def add1(self, num):
-        """
-
-        Add 1 to the num
+        Initialize the Mato
 
         Parameters
         ----------
-        num : int
-            Number to add
+        file : str
+            File to set
+
+        Attributes
+        ----------
+        file : str
+            Name of the file
         """
-        return num + 1
+        self.file = file
