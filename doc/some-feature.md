@@ -12,3 +12,10 @@ Let's make a list (empty surrounding lines required):
 
 - item 2
 - item 3
+
+## IO
+:: autofunction:: io.open
+    :members:
+
+:: automodule:: yeti
+    :members:
