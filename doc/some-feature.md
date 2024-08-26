@@ -14,8 +14,8 @@ Let's make a list (empty surrounding lines required):
 - item 3
 
 ## IO
-:: autofunction:: io.open
+.. autofunction:: io.open
     :members:
 
-:: automodule:: yeti
+.. automodule:: yeti
     :members:

@@ -3,15 +3,15 @@ Hello
 
 ## Yeti
 
-:: automodule: yeti
+.. automodule:: yeti
 
 ## Yeti with members
 
-:: automodule: yeti
+.. automodule:: yeti
     :members:
 
 ## Yeti.Mato
 
 
-:: autoclass: yeti.Mato
+.. autoclass:: yeti.Mato
     :members:
