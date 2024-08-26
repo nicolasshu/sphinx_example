@@ -17,5 +17,11 @@ Welcome to Example's documentation!
 Yeap
 
 
-home.md
-some-feature.md
+Contents
+========
+
+.. toctree::
+   :maxdepth: 2
+
+    home
+    some-feature
