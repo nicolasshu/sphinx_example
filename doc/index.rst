@@ -6,7 +6,7 @@
 Welcome to Example's documentation!
 ===================================
 
-.. automodule:: yeti.mato
+.. automodule:: yeti
     :members:
 
 .. toctree::
