@@ -9,16 +9,17 @@ Welcome to Example's documentation!
 .. automodule:: yeti.mato
     :members:
 
+
 .. automodule:: example
     :members:
 
 .. autoclass:: yeti.Mato
     :members:
+
+    .. automethod:: __init__
+
 Yeap
 
-
-Contents
-========
 
 .. toctree::
    :maxdepth: 2
