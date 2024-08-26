@@ -23,5 +23,5 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-    home
-    some-feature
+    home.md
+    some-feature.md
